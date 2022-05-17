@@ -127,14 +127,14 @@ body {
   .present1{
     color: black;
     font-size: 4rem;
-    right: 130px;
+    right: 200px;
     position: relative;
     top:50px;
   }
 
   .present2{
     color: black;
-    right: 130px;
+    right: 200px;
     position: relative;
     top:50px;
   }
@@ -142,6 +142,14 @@ body {
   .ieee-logo{
     margin: auto;
   }
+
+  .MAC{
+    color: #ff9100;
+  }
+
+  /* .IEEE{
+    color:darkblue;
+  } */
 
   /*--------------------------------------------------------------
   # Header Social Links
@@ -183,6 +191,7 @@ body {
   .navbar {
     padding: 0;
     max-width: 1500px !important;
+    margin-left: 100px;
   }
   
   
@@ -287,6 +296,10 @@ body {
   
   .nav-container {
     max-width: 1500px;
+  }
+
+  .end{
+    margin-right: 100px;
   }
   
   
@@ -765,6 +778,29 @@ body {
   /*--------------------------------------------------------------
   # Our Team
   --------------------------------------------------------------*/
+  .profile_photo{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border-color: #f7ad4d;
+    border-style: solid;
+    margin: 20px 180px;
+  }
+
+  .profile_about1{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .profile_about2{
+    text-align: center;
+  }
+
+  /* .profile_size{
+    height: 400px;
+    width: 400px
+  } */
+
   .team .member {
     margin-bottom: 20px;
     overflow: hidden;
