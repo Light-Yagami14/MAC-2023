@@ -81,8 +81,8 @@ body {
     background: black;
     transition: all 0.5s;
     z-index: 997;
-    padding: 15px 0;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px 45px 20px 15px;
+    box-shadow: 0px 4px 10px #ff9100;
   }
   
   #header .logo {
@@ -94,6 +94,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+
   }
   
   #header .logo a {
@@ -116,7 +117,7 @@ body {
   .aboutUs{
     background-image: url("assets/New.jpg");
     height:552px;
-    margin-top: 80px;
+    margin-top: 220px;
     text-align: center;
   }
 
@@ -223,6 +224,10 @@ body {
     white-space: nowrap;
     text-transform: uppercase;
     transition: 0.3s;
+  }
+
+  .navbar .top_but, .navbar .dropdown{
+    box-shadow: 0px 4px 5px #ff9100; 
   }
   
   .navbar a i, .navbar a:focus i {
@@ -778,13 +783,30 @@ body {
   /*--------------------------------------------------------------
   # Our Team
   --------------------------------------------------------------*/
+  .main_table{
+    border-left: none;
+    border-right: none;
+  }
+  
   .profile_photo{
     height: 250px;
     width: 250px;
     border-radius: 50%;
     border-color: #f7ad4d;
     border-style: solid;
-    margin: 20px 180px;
+    margin: 80px auto;
+    display: block;
+    left: 100px;
+  }
+  .profile_photo1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border-color: #f7ad4d;
+    border-style: solid;
+    margin: 50px;
+    padding: auto;
+    box-shadow: 0px 4px 10px black;
   }
 
   .profile_about1{
@@ -794,12 +816,13 @@ body {
 
   .profile_about2{
     text-align: center;
+    border-radius: 45%;
+    font-size: 18px;
   }
 
-  /* .profile_size{
-    height: 400px;
-    width: 400px
-  } */
+  .profile_size{
+    border-radius: 10%;
+  }
 
   .team .member {
     margin-bottom: 20px;
